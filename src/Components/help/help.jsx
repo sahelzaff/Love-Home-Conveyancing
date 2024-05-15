@@ -6,14 +6,14 @@ const help = () => {
     return (
         <div className="color">
             <div className="main-container">
-                <div className="main-heading">
+                {/* <div className="main-heading">
                     <h2>Experience The Benefits Simplified With Our Service</h2>
                     <p>
                         At love home, we redefine conveyancing by prioritizing
                         simplicity and convenience.
                     </p>
-                </div>
-                <div className="grid-container" >
+                </div> */}
+                {/* <div className="grid-container" >
                     <div className="grid" data-aos="slide-right">
                         <h5 className="grid-head">
                             Seamless Digital Experience
@@ -49,7 +49,7 @@ const help = () => {
                             conveyancing is made simple.
                         </p>
                     </div>
-                </div>
+                </div> */}
                 <div className="main-heading-help">
                     <h2>How can we help?</h2>
                     <p>

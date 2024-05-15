@@ -13,6 +13,8 @@ import Founder from "./Components/Founder/Founder.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
 import HeroContent_2 from "./Components/HeroContent_2/HeroContent_2.jsx";
 import Booknow from "./Components/Booknow/Booknow.jsx";
+import Lead_gen_form from "./Components/Lead_gen_form/Lead_gen_form.jsx"
+import Our_Service from "./Components/Our_Service/Our_Service.jsx";
 const App = () => {
   const review = [{ reviewData }];
   return (
@@ -25,8 +27,10 @@ const App = () => {
       <div className="back">
         <HeroContent_2 />
         <Founder />
+        <Our_Service/>
         <Help />
         <Booknow />
+        <Lead_gen_form/>
         <Review reviews={reviewData} />
         <Counter />
         <FAQs />
