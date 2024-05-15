@@ -22,7 +22,7 @@ const HeroContent_2 = () => {
                     <div className="col-lg-7 col-md-12 pb-200">
                         <div className="ttm-col-bgimage-yes col-bg-img-three ttm-bg ttm-right-span spacing-2">
                             <div className="ttm-col-wrapper-bg-layer ttm-bg-layer bg-base-dark ">
-                                <div className="ttm-col-wrapper-bg-layer-inner" ><img src={assets.bg2_final} alt="" srcset="" /> </div>
+                                <div className="ttm-col-wrapper-bg-layer-inner" > <img src={assets.bg2_final} alt="" srcset="" /> </div>
                             </div>
                             <div className="layer-content">
                                 <div className="section-title">
