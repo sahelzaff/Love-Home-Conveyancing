@@ -1,0 +1,136 @@
+.color{
+    background-color:#fbfbfb;
+    padding-top:1px;
+    /* padding-bottom:300px; */
+    margin-top:-160px;
+}
+
+.container_about
+{
+     background-color:#fbfbfb;
+     margin-top: 150px;
+     padding-bottom: 400px; 
+     padding-left: 20px; 
+     box-sizing: border-box;
+     
+    
+    
+}
+.container2{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center !important;
+    box-sizing: border-box;
+}
+.photo_container{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.photo{
+    position: relative;
+}
+.photo img{
+    width: 75%;
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+.name{
+    position: absolute;
+    left: 0;
+    top: 65%;
+    unicode-bidi:isolate ;
+    display: block;
+}
+.about_name{
+    background-color: #fd5732;
+    display: flex;
+    flex-direction: column;
+    padding: 8px 20px;
+    font-size: 22px;
+    font-weight: 500;
+    color: #fff;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+}
+.name_p{
+    font-size: 10px;
+    text-align: center;
+}
+
+.shape{
+    background-image: url("src/assets/experience.png");
+    background-position: center center;
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    bottom: 0;
+    right: 150px;
+}
+
+.text{
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 10px;
+}
+
+.text h3{
+    font-weight: 700;
+    font-size: 55px;
+    color: #c21d03;
+    margin-bottom: 0px;
+    line-height: 1;
+}
+
+.text span{
+    color: #111111;
+    font-weight: 450 ;
+    font-size: 18px;
+  
+}
+
+.text2{
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+.about_content span{
+    color: #8f1e00;
+}
+.about_content h3{
+    font-size: 30px;
+    font-weight: 550;
+    margin-top: 10px;
+    margin-bottom: 16px;
+    line-height: 1.7;
+}
+.about_content p{
+    margin-bottom: 15px;
+    line-height: 1.8;
+    color: #606060;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+.default_dtn {
+    font-size: 20px;
+    font-weight: 500;
+    padding: 15px 30px;
+    /* background-color: #232121; */
+    background: linear-gradient(287deg, #b923e1 0.36%, #da7c25 102.06%);
+    color: #fefefe;
+    border-radius: 50px;
+    position: relative;
+    overflow: hidden;
+    /* margin-right: 10px; */
+    cursor: pointer;
+    font-family: outfit;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.default_dtn:hover{
+  transform: scale(1.05);
+}

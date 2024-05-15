@@ -1,13 +1,16 @@
 .main{
-    background-color: #ff241b;
+    /* background-color: #ff241b; */
+    background-image: linear-gradient(to bottom right, #c21d03, #fd5732);
     margin-bottom: 10%;
-    margin-top: 6%;
+    margin-top: 3.5%;
 }
-.head{
+.head h3{
     text-align: center;
     padding-top: 50px;
-    font-size: 25px;
+    font-size: 37px;
+    font-weight: 600;
 }
+
 
 .counter-container {
     display: flex;

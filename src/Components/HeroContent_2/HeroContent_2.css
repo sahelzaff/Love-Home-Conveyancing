@@ -1,0 +1,339 @@
+
+.ttm-row.broken-section {
+    padding: 135px 0 0px;
+}
+.container{
+    max-width:1170px;
+    padding:0 15px;
+}
+
+
+
+.ttm-bgcolor-third-dark-grey-color,
+.ttm-bgcolor-third-dark-grey-color>.ttm-bg-layer,
+.ttm-bgcolor-third-dark-grey-color>.ttm-bg-layer>.ttm-col-wrapper-bg-layer-inner,
+.widget.widget-download ul li {
+    background-color: #fefefe;
+}
+
+section {
+    display: block;
+    counter-reset: featuredbox-number;
+    /* padding-top: 12%;/ */
+    margin-top:5%;
+}
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1170px;
+    padding: 0 15px;
+}
+
+.pb-90 {
+    padding-bottom: 90px !important;
+
+}
+
+.bg-layer-equal-height .ttm-col-bgimage-yes,
+.bg-layer-equal-height .ttm-col-bgcolor-yes {
+    height: 100%;
+}
+
+.ttm-col-bgimage-yes {
+    z-index: 1;
+}
+
+.ttm-bg {
+    position: relative;
+}
+.backup{
+    background:#bebebe;
+    border-radius:6px;
+}
+.col-bg-img-two.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
+    background-image: url( "C:\Users\sahel\OneDrive\Documents\Love Home\FrontEnd\FrontEnd\src\assets\bg1_final.png" );
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 130%;
+    height: 75%;
+    top: -1%;
+    left: -50%;
+}
+
+.ttm-left-span .ttm-col-wrapper-bg-layer {
+    width: auto;
+    right: 0;
+    margin-left: 100px;
+
+}
+
+.ttm-bg-layer,
+.ttm-titlebar-wrapper .ttm-titlebar-wrapper-bg-layer,
+.ttm-col-wrapper-bg-layer-inner {
+    position: absolute;
+    height: 90%;
+    width: 155%;
+    top: 2.5;
+    left: 0;
+    /* z-index:-1; */
+    
+}
+
+.layer-content {
+    position: relative;
+    z-index: 1;
+    padding-top:50px;
+}
+
+.ttm-equal-height-image {
+    display: none;
+}
+
+img {
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+img,
+svg {
+    vertical-align: middle;
+}
+
+.spacing-2 {
+    margin-left: -120px;
+    margin-top: -90px;
+    padding: 0px 0 180px 180px;
+    z-index: 0;
+}
+
+.col-bg-img-three.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
+    background-image: url("C:\Users\sahel\OneDrive\Documents\Love Home\FrontEnd\FrontEnd\src\assets\bg2_final.png");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+
+.section-title {
+    position: relative;
+}
+
+.section-title .title-header {
+    position: relative;
+    margin-bottom: 14px;
+}
+
+.section-title h2.title {
+    font-weight: 550;
+    font-size: 48px;
+    line-height: 60px;
+    margin-bottom: 0;
+    font-family: Outfit;
+}
+
+.row {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.mr-0 {
+    margin-right: 0px !important;
+}
+
+.ml-0 {
+    margin-left: 0px !important;
+
+}
+
+.mt-40 {
+    margin-top: 40px !important;
+}
+
+.pb-10 {
+    padding-bottom: 10px !important;
+}
+
+.pl-10 {
+    padding-left: 10px !important;
+}
+
+.pt-30 {
+    padding-top: 30px !important;
+}
+
+.pr {
+    padding-right: 15px !important;
+}
+
+.row:not(.g-0)>[class*='col-'] {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.digit-box {
+    position: relative;
+    top: -10px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.digit-box h3 {
+    text-align: center;
+    font-size: 82px;
+    line-height: 82px;
+    color: #db8f69, var(--skin-color);
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Outfit;
+    font-weight: 600;
+}
+
+.digit-box p {
+    padding-left: 10px;
+    text-align: center;
+    font-size: 15px;
+}
+
+p {
+    margin: 0 0 15px;
+}
+
+.ttm-border-left {
+    border-left: 1px solid #2e3033;
+}
+
+.single-text-box h3 {
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+.single-text-box strong {
+    color: #db8f69 var(--skin-color);
+}
+
+strong {
+    font-weight: 700;
+}
+
+.featured-icon-star h3 {
+    margin: 0 7px 0 0;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 24px;
+}
+
+.featured-icon-star h3 span,
+.featured-icon-star h3 i {
+    color: #db8f69, var(--skin-color);
+}
+
+.fa {
+    display: inline-block;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+}
+
+.row:not(.g-0) {
+    margin-left: -15px;
+    margin-right: -15px;
+}
+
+.ttm-vertical_sep>[class*='col'] {
+    position: relative;
+}
+
+.featured-icon-box.style9 {
+    padding-right: 10px;
+    padding-top: 20px;
+}
+
+.featured-icon-box {
+    position: relative;
+}
+
+.featured-icon-box.style9 .featured-title {
+    padding-left: 0;
+}
+.title{
+    font-weight:700;
+}
+
+.featured-icon-box.icon-align-before-content .featured-icon,
+.featured-icon-box.icon-align-before-content .featured-content,
+.featured-icon-box.icon-align-before-title .featured-title,
+.featured-icon-box.icon-align-before-title .featured-icon {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+.featured-icon-box.icon-align-before-content .featured-content,
+.featured-icon-box.icon-align-before-title .featured-title {
+    padding-left: 15px;
+}
+
+.featured-icon-box.icon-align-before-title .featured-title h3 {
+    margin-bottom: 0;
+}
+
+.featured-title h3 {
+    font-size: 22px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+.featured-icon-box.icon-align-before-title .featured-content {
+    margin-top: 15px;
+}
+
+.featured-icon-box.style9 .featured-content .featured-desc p {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.featured-desc p {
+    padding: 3px 0;
+    font-size: 15px;
+}
+
+.featured-icon-box {
+    position: relative;
+}
+
+.featured-icon-box.style9 .featured-title {
+    padding-left: 0;
+}
+
+.featured-icon-box.icon-align-before-title .featured-title h3 {
+    margin-bottom: 0;
+}
+
+.featured-icon-box.icon-align-before-title .featured-content {
+    margin-top: 15px;
+}
+
+.pl-2{
+    padding-left:3px;
+}
+.color-text{
+    color:#db8f69;
+}
+.pt-20{
+    padding-top:20px;
+}

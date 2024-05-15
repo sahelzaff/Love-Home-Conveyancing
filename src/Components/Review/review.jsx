@@ -21,10 +21,6 @@ const Review = ({ reviews }) => {
         setCurrentSlide(nextSlideIndex);
     };
     
-    
-    
-   
-
     useEffect(() => {
         const intervalId = setInterval(goToNextSlide, 5000); 
         return () => clearInterval(intervalId); 
@@ -39,7 +35,7 @@ const Review = ({ reviews }) => {
     }, [currentSlide]);
 
     return (
-        <div>
+        <div className='color_new'>
             <div className="client-head">
                 <h2>What our Client say</h2>
             </div>

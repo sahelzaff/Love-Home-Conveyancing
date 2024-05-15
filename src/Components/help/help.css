@@ -1,27 +1,40 @@
+.color{
+  display:flex
+  
+  
+}
+
 .main-container {
+    padding-top: 500px;
+  padding-bottom:700px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     height: 100vh;  
-    margin-top: 350px; 
+    /* margin-top: 450px;  */
+    background-color:#fbfbfb;
   }
   
   .main-heading {
     text-align: center;
     margin-bottom: 40px; 
-    
+    background-color:#fbfbfb;
   }
   .main-heading h2{
     color: #ff241b;
     font-family: Outfit;
-    font-size: 4rem;
+    font-size: 3.2rem;
+    font-weight: 700;
     padding-bottom: 10px;
+    background-color:#fbfbfb;
+    
   }
   .main-heading p{
     font-family: poppins;
     letter-spacing: 1px;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    background-color:#fbfbfb;
   }
 
   .grid-container {
@@ -30,32 +43,61 @@
     gap: 40px; 
     margin-left: 90px;
     margin-right: 90px;
-    margin-top: 50px;
+    margin-top: 30px; 
+    background-color:#fbfbfb;
+    
   }
   
   .grid {
     text-align: center; 
+    border-radius:6px ;
+    box-sizing: border-box;
+    box-shadow: -5px 0px 10px rgba(0, 0, 0, 0.4), 5px 0px 30px rgba(0, 0, 1, 0.4);
+    /* padding: 10px 40px; */
+    transition: scale 0.5s ease-in-out;
+  }
+
+  .grid:hover{
+    scale: 110%;
+    cursor: pointer;
+  }
+
+  .grid:hover .grid-head{
+    background-color: #ff241b;
   }
   
   .grid-head {
     margin-bottom: 15px; 
-    font-size: 1.3rem;
-    font-weight: 600;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 20px 40px;
+    background-color: #fd5732;
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px;
+    transition: background-color 0.5s ease;
   }
   .grid-para {
     font-size: 1.1rem;
-    letter-spacing: 0.5px;
+    line-height:1.2;
+    letter-spacing: 0.1px;
+    padding: 10px 40px;
+    font-family:Outfit;
+
+
   }
   .main-heading-help{
-    margin-top: 120px;
+    margin-top: 100px;
     margin-bottom: 50px;
   }
   
   .main-heading-help h2{
     font-size: 4rem;
     color: #ff241b;
+    font-weight: 700;
+    font-family:Outfit;
   }
   .main-heading-help p{
+    font-family:poppins;
     text-align: center;
     font-size: 1rem;
     letter-spacing: 1px;
@@ -65,24 +107,31 @@
     display: grid;
     grid-template-columns: repeat(3, 1fr); 
     gap: 70px; 
-    margin-left: 90px;
-    margin-right: 90px;
-    margin-top: 20px;
-    margin-bottom: 50px;
+    padding-left: 165px;
+    padding-right: 165px;
+    padding-top:8px;
+    padding-bottom: 60px;
+    background-color:#fbfbfb;
   }
 
   .grid-asset{
     max-width: 120px;
     max-height: 120px;
+    background-color:#fbfbfb;
   }
   .grid-1{
     text-align: center;
     padding: 70px 60px 70px 60px;
     cursor: pointer;
+    background-color:#fbfbfb;
   }
   .grid-para2{
     text-align: center;
     padding: 10px;
+    font-family:poppins;
+    font-size: 1rem;
+    background-color:#fbfbfb;
+    
   }
   .grid-1:hover{
     
@@ -92,7 +141,10 @@
     /* background-color: #ff382eef; */
     cursor: pointer;
   }
-
+.client-head h2{
+  font-family:Outfit;
+  font-size:2.8rem;
+}
  
 
     

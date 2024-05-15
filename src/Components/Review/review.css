@@ -1,11 +1,38 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.color_{
+  background-color: #fefefe;
+}
+.review-main {
+  display:block;
+  opacity: 0; 
+  animation: fadeIn 1s ease-in forwards;
+  background-color:#fbfbfb;
+  padding-bottom:20px
+}
+
 .client-head{
-  display: flex;
-  justify-content: center;
-  align-items: center;
+   display: flex;
+   justify-content: center;
+   align-items: center;
     color: #333;
     font-size: 1.7rem;
-    margin-top: 320px;
+    padding-top: 100px;
     margin-bottom: 50px;
+  }
+
+  .client-head h2{
+    font-size: 3.5rem;
+    font-weight: 700;
   }
 
   .review-slider-container {
@@ -38,7 +65,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     padding: 20px;
-    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.6);
+    box-shadow: 5px 0px 30px rgba(0, 0, 0, 0.2);
   }
   
   .profile {
@@ -49,14 +76,21 @@
   }
   
   .profile-photo {
-    width: 50px;
-    height: 50px;
+    width: 60px;
+    height: 60px;
     border-radius: 50%;
     margin-right: 10px;
   }
   
   .profile-details {
     text-align: left;
+    font-family:Outfit;
+    font-size:1rem;
+    font-weight: 700; 
+  }
+  .profile-details h3{
+    font-size:1.6rem;
+    font-weight: 700; 
   }
   
   .stars {
@@ -70,6 +104,7 @@
   .review-text {
     font-size: 16px;
     line-height: 1.5;
+    font-family:poppins;
   }
   
   .prev, .next {

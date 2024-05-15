@@ -1,24 +1,23 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Outfit:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-.navbar{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 0px 20px 0px 20px;
-    background-color: #232425;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    opacity: 0; 
-    transition: opacity 0.5s ease-in-out;
-}
-
-.navbar.reveal {
+.navbar {
+  position: sticky; 
+  top: 0; 
+  z-index: 1000; 
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 20px 0px 20px;
+  background-image: linear-gradient(to bottom right, #ffb787, #c21d03);
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
   opacity: 1; 
+  transition: top 0.5s ease;
 }
 
 .logo{
-    width: 27vw;
+    width: 20vw;
     max-width: 400px;
-    padding: 10px 20px;
+    padding: 10px 10px;
     transition: transform 0.3s ease, opacity 0.5s ease-in-out;
     cursor: pointer;
     opacity: 0;
@@ -37,42 +36,46 @@
     padding: 0;
     margin: 0;
     display: flex;
-    
+
 }
 .navbar li{
     position: relative;
     margin-right: 20px;
 }
 .navbar li a {
-    font-weight: 600;
+    font-weight: 500;
     font-family: poppins;
-    font-size: 1rem;
+    font-size: 0.9rem;
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #f0f0f0;
+    color: #232121;
+}
+.navbar li a:hover{
+  color: #fefefe;
+  transition: 0.6s;
 }
 
 
 .arrow {
-    position: absolute;
-    top: 50%;
-    right:-5px;
-    transform: translateY(-50%);
-    width: 20px; 
-    height: auto;
-    transition: transform 0.3s ease;
-    transform-origin: center; 
-  }
-  
-  .arrow.down {
-    transform: translateY(-50%) rotate(180deg);
-  }
+  position: absolute; 
+  top: 50%;
+  right: -5px;
+  transform: translateY(-50%);
+  width: 20px;
+  height: auto;
+  transition: transform 0.3s ease;
+  transform-origin: center center; 
+}
 
-/* .arrow.up{
-    border-bottom: none;
-    border-top: 5px solid #333;
-} */
+.arrow.down {
+  transform: translateY(-50%) rotate(180deg);
+}
+
+/* Adjust the positioning of the dropdown arrow when rotated */
+.dropdown:hover .arrow {
+  right: -9px; /* Adjust the right position to accommodate the rotation */
+}
 
 .dropdown {
     display: none;
@@ -80,7 +83,7 @@
     top:100%;
     left: 0;
     width: 130%;
-    background-color: rgba(255, 55, 46, 0.9); 
+    background-color: #fbfbfb; 
     border-radius: 5px; 
     padding: 5px 0; 
     animation: fadeInDown 1s ease forwards; 
@@ -90,11 +93,11 @@
   @keyframes fadeInDown {
     from {
       opacity: 0;
-      transform: translateY(-10px);
+      
     }
     to {
       opacity: 1;
-      transform: translateY(0);
+      
     }
   }
 
@@ -114,42 +117,54 @@
     display: block;
     padding: 10px 20px;
     text-decoration: none;
-    color: #fff;
+    color: #232121;
     transition: background-color 0.3s ease;
 }
 .dropdown li a:hover{
     border-left: 4px solid #464646;
 }
 
-.quote{
-    font-size: 0.8rem;
-    font-weight: 1000;
-    padding: 15px 20px 15px 20px;
-    /* margin-right:0px ; */
-    background-color: #fff;
-    color: #333;
-    border: 1px solid black;
-    border-radius: 5px;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
-    right: 1;
+.quote {
+  font-size: 15px;
+  font-weight: 500;
+  padding: 12px 10px;
+  /* background-color: #232121; */
+  background: linear-gradient(287deg, #b923e1 0.36%, #da7c25 102.06%);
+  color: #fefefe;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+  margin-right: 10px;
+  cursor: pointer;
+  font-family: outfit;
+  transition: 0.5s;
+}
+.navbar.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000; 
+    background-image: linear-gradient(to bottom right, #ffb787, #c21d03);
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4); 
+    animation: fadeInDown 0.5s ease forwards;
 }
 
-.btn_arw{
+
+.quote::before {
+  content: "";
   position: absolute;
-  height: 40%;
-  width: 20%;
   top: 50%;
-  left: 167px;
-  /* right: 0px; Adjust this value to reduce the gap */
-  transform: translateY(-50%); 
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0);
+  transition: background-color 0.5s;
+  z-index: -1;
+  
 }
 
-
-.quote:hover {
-  background-color: #ff241b;
-  color: #f0f0f0;
-  border: 1px solid black;
+.quote:hover{
+  transform: scale(1.05);
+  
 }
-

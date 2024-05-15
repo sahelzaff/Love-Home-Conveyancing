@@ -1,13 +1,19 @@
-import React from 'react'
-import'./background.css';
-import {assets} from '../../assets/assets';
+import React from "react";
+import "./background.css";
+import { assets } from "../../assets/assets";
 
 const background = () => {
   return (
-    <div className='background'>
-        <img src= {assets.house2_final} alt="" srcset="" />
-    </div>
-  )
-}
+    <>
+      <div className="background" data-aos="fade-left" >
+        <img src={assets.banner_1} alt="" srcset="" />
+      </div>
 
-export default background
+      <div className="container">
+        <div className="color"></div>
+      </div>
+    </>
+  );
+};
+
+export default background;

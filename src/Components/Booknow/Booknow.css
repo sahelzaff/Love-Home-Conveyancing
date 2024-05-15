@@ -1,0 +1,62 @@
+.book-contaniner{
+    background-color:#fefefe;
+    
+  }
+  .flex-container{
+    border-radius:6px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background-image: linear-gradient(to bottom right, #c21d03, #fd5732);
+    box-sizing:border-box;
+    margin-left:100px;
+    margin-right:100px;
+    padding:70px 100px 70px 100px 
+    
+  }
+  .flex-container button{
+    margin-left:20px;
+    padding:10px 20px;
+    background: linear-gradient(287deg, #b923e1 0.36%, #da7c25 102.06%);
+    /* border:2px solid #393939; */
+    font-family:poppins;
+    font-size:1rem;
+    font-weight:600;
+    color:#fefefe;
+    border-radius: 50px;
+    transition: transform 0.3s ease-in-out;
+    animation-duration: 0.8s; /* Match the interval duration */
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    }
+
+  .animate {
+    animation: scale 1s infinite;
+  }
+  
+  @keyframes scale {
+    0% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.15);
+    }
+    100% {
+      transform: scale(1);
+    }
+  }
+  
+  .flex-container h2{
+    font-family:Outfit;
+    font-size:2.5rem;
+    font-weight:700;
+    color:black;
+  }
+  
+  .flex-container button:hover{
+    animation: none;
+    transition: 0.8 ease;
+    transform: scale(1.15);
+    /* transition: 0.3 ease; */
+  }
