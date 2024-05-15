@@ -56,7 +56,7 @@ section {
     border-radius:6px;
 }
 .col-bg-img-two.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
-    background-image: url( "C:\Users\sahel\OneDrive\Documents\Love Home\FrontEnd\FrontEnd\src\assets\bg1_final.png" );
+    background-image: url( "src/assets/bg1_final.png" );
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -113,7 +113,7 @@ svg {
 }
 
 .col-bg-img-three.ttm-col-bgimage-yes .ttm-col-wrapper-bg-layer {
-    background-image: url("C:\Users\sahel\OneDrive\Documents\Love Home\FrontEnd\FrontEnd\src\assets\bg2_final.png");
+    background-image: url("src/assets/bg2_final.png");
     background-position: right;
     background-repeat: no-repeat;
     background-size: cover;
